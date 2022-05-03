@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+:root {
+  /* Primary */
+  --Pink: hsl(322, 100%, 66%);
+  /* Neutral */
+  --Very-Pale-Cyan: hsl(193, 100%, 96%);
+  --Very-Dark-Cyan: hsl(192, 100%, 9%);
+  --Grayish-Blue: hsl(208, 11%, 55%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* universal selectors */
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
+/* img{
+    max-width: 50%;
+} */
+
+
+/* Body, Call-to-actions 400, 700 */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Headings 600 */
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sanseriff;
+}
+
+/* Utilities classes */
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+
+.flex-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-primary {
+    display: inline-block;
+  background-color: #fff;
+  padding: 10px 40px;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+  font-family: "Poppins", sanseriff;
+  cursor: pointer;
+}
+
+.btn-secondary {
+    display: inline-block;
+  background-color: var(--Pink);
+  color: #fff;
+
+  padding: 16px 40px;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+  font-family: "Poppins", sanseriff;
+  cursor: pointer;
+}
+
+/* header */
+.header {
+  background: hsl(193, 100%, 96%) url(../images/bg-hero-desktop.svg);
+  height: 100vh;
+}
+
+/* nav */
+
+nav {
+  padding: 40px 0;
+}
+
+/* hero */
+
+.hero > * {
+
+  margin: 0 10px;
+}
+
+.hero h1 {
+    font-weight: 700;
+  font-size: 40px;
+  margin-left: -10px;
+}
+
+.hero p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: -10px;
+}
+
+.hero img {
+  width: 52%;
+}
+
+.btn-hero{
+    margin-top: 20px;
+    margin-left: -20px;
+}
+
+
+/* flex-items */
+
+.flex-items{
+    padding: 6% 0;
+   
+    margin: 10px 50px;
+}
+
+
+
+/* card */
+
+.card{
+    background-color: hsl(0, 0%, 93%);
+    position: absolute;
+    margin-top: -4%;
+   
+ 
+    left:24%;
+    width: 50%;
+    height: 30vh;
+    padding: 40px 0;
+    text-align: center;
+    border-radius:10px;
+}
+
+.btn-card{
+    margin-top: 20px;
+    height: 10vh;
+    width: 80%;
+}
+
+/* flex-items */
+
+.flex-items img{
+    width: 30%;
+}
+
+
+
+/* footer */
+
+.footer{
+    background-color: red;
+}
